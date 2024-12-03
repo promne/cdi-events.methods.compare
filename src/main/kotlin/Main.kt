@@ -10,6 +10,8 @@ fun main() {
             arrayOf(PrintRequestService::class.java, PrintedNotificationService::class.java, RandomUnknownListenerOnPrintRequests::class.java)
     )
 
+    \u2202
+
     // run the "same" thing on a different setup
     for (serviceSet in serviceSets) {
         // init CDI with some services
